@@ -386,7 +386,7 @@ const ftroli = {
 
                       }
 
-await conn.send2ButtonImg(m.chat, await (await fetch('https://hadi-api.herokuapp.com/api/walpaperanime')).buffer(),  '*────────[ ALL MENU ]────────*', text, 'RULES', '.rules', 'SEWAH BOT', '.sewa', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/0f7cd9e88c1c5a8264a87.jpg')).buffer(),  '*────────[ ALL MENU ]────────*', text, 'RULES', '.rules', 'SEWAH BOT', '.sewa', m, {  
 
       quoted: ftroli,  
 
