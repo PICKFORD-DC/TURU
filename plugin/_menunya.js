@@ -192,7 +192,7 @@ const ftroli = {
                           }
                         }
                       }
-await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/77d411d5a3808b375c232.jpg')).buffer(),  '*────────[ DASBOARD ]────────*', text, 'INFOBOT', '.info', 'LISTMENU', '.menu', m, {  
+await conn.send2ButtonImg(m.chat, await (await fetch('https://hadi-api.herokuapp.com/api/walpaperanime')).buffer(),  '*────────[ ALL MENU ]────────*', text, 'RULES', '.rules', 'SEWAH BOT', '.sewa', m, {  
       quoted: ftroli,  
       contextInfo: { //forwardingScore: 99999, isForwarded: true,  
           externalAdReply: {  showAdAttribution: true, 
@@ -212,7 +212,7 @@ await conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/fil
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.command = /^(a)$/i
+handler.command = /^(allmenu)$/i
 
 handler.exp = 3
 
